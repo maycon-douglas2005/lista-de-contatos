@@ -1,11 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Contatos</title>
-</head>
+<?php require_once '../app/Views/partials/head.php';
+$baseUrl = '/Projetos de Programação/lista_de_contatos/public/index.php';
+?>
+
+
 <body>
-    
+<?php require_once '../app/Views/partials/header.php' ?>
+
+
+
+
+
+
+
+<?php require_once '../app/Views/partials/footer.php' ?>
+
+
 </body>
 </html>
