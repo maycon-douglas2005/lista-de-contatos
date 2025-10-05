@@ -1,5 +1,6 @@
-<?php require_once '../app/Views/partials/head.php';
+<?php
 $baseUrl = '/Projetos de Programação/lista_de_contatos/public/index.php';
+require_once '../app/Views/partials/head.php';
 ?>
 
 
@@ -15,8 +16,8 @@ $baseUrl = '/Projetos de Programação/lista_de_contatos/public/index.php';
                 <h1>Bem-Vindo A Sua Lista De Contatos</h1>
                 <p>Gerencie seus contatos de maneira simples e eficiente</p>
                 <div class="botoes">
-                    <button class="btn btn-outline-primary">Cadastrar-se</button>
-                    <button class="btn btn-outline-primary">Logar</button>
+                    <a class="btn btn-outline-primary" href="../app/Views/auth/cadastro.php">Cadastrar-se</a>
+                    <a class="btn btn-outline-primary">Logar</a>
                 </div>
 
             </section>
