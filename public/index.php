@@ -1,5 +1,5 @@
 <?php
-$baseUrl = '/Projetos de Programação/lista_de_contatos/public/index.php';
+$baseUrl = '/Projetos%20de%20Programação/lista_de_contatos/public/index.php';
 require_once '../app/Views/partials/head.php';
 ?>
 
@@ -17,12 +17,12 @@ require_once '../app/Views/partials/head.php';
                 <p>Gerencie seus contatos de maneira simples e eficiente</p>
                 <div class="botoes">
                     <a class="btn btn-outline-primary" href="../app/Views/auth/cadastro.php">Cadastrar-se</a>
-                    <a class="btn btn-outline-primary">Logar</a>
+                    <a class="btn btn-outline-primary" href="../app/Views/auth/login.php">Logar</a>
                 </div>
 
             </section>
 
-            <img src="images/home_site.png" class="img-fluid col-5 shadow" alt="">
+            <img src=" images/home_site.png" class="img-fluid col-5 shadow" alt="">
         </div>
     </main>
 

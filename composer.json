@@ -1,0 +1,17 @@
+{
+  "name": "php/src",
+  "description": "Projeto de lista de contatos",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "PHP\\": "app/"
+    }
+  },
+  "authors": [
+    {
+      "name": "mayconchaves2005@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {}
+}
